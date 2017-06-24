@@ -1,7 +1,5 @@
 # WeatherTest
 * Cookpad Weather app test 
-![Settings Window](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-08-58.png)
-![Alt text](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-09-40.png "Optional title")
 Application Name : Weather app test 
 
 Application Description : Shows wind, humidity, high and low temperature and wind information for your current location.
@@ -40,19 +38,25 @@ Activities Overview :-
 
 First : 
 * MainActivity.java  :- 
+![Settings Window](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-08-58.png)
+
  
 * I attached LocationManager  & LocationListener in this activity , I used 3 methods the first one is onProviderDisabled this take the user directly to Enable his GPS service , the second one is onProviderEnabled which works when the user has succsefully Enabled the GPS service to tell him it's done , The last one is onLocationChanged this take 3 values describes the current Location which are Location Lattitude & Longttitude and the Accuraccy 
 
 * A button when pressed checking is the location is Null or not , if not will take the user to next acticity "Loading.java" 
 
 Second :
-* Loading.java 
+* Loading.java :-
+![Alt text](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-09-40.png "Optional title")
+
 
 * first it's Asynctask Class Function with default methods , OnPreExecute , onPostExecute , doInBackground , 
 first on PreExecute it created progress dialgoue , then onPostExecute it calls HTTPHunder and call the API end point corresponded by Long and Lat values that we got them from the previous activity , Saving JSON string into variable and parsing it's data to string vars and arraylist of hashmap 
 finally onPostExecute Dissmis the dialgoue and Pass "Intent" Arraylist & String vars to the next activity "MapsActivity"
 
 Third : 
-* MapsActivity.java : 
+* MapsActivity.java :-
+![Alt text](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-09-40.png "Optional title")
+
 
 * It recivied Arraylist & String vars , Setting Google maps fragment pointed to the current location , Creating Custom Listview Adapter , Retriving some images like Countrty Flag & Weather Main status from the internet using Glide Lib , converting milliseconds to Date , accsessing and update  TextViews and ImageViews .
