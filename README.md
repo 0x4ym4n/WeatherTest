@@ -1,6 +1,7 @@
 # WeatherTest
 * Cookpad Weather app test 
-![Settings Window](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-08-58.png)(https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-09-40.png)
+![Settings Window](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-08-58.png)
+![Alt text](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-09-40.png "Optional title")
 Application Name : Weather app test 
 
 Application Description : Shows wind, humidity, high and low temperature and wind information for your current location.
