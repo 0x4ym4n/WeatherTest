@@ -56,7 +56,7 @@ finally onPostExecute Dissmis the dialgoue and Pass "Intent" Arraylist & String 
 
 Third : 
 * MapsActivity.java :-
-![Alt text](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-09-40.png "Optional title")
+![Alt text](https://raw.githubusercontent.com/0x4ym4n/WeatherTest/master/Screenshot_2017-06-25-01-09-54.jpg "Optional title")
 
 
 * It recivied Arraylist & String vars , Setting Google maps fragment pointed to the current location , Creating Custom Listview Adapter , Retriving some images like Countrty Flag & Weather Main status from the internet using Glide Lib , converting milliseconds to Date , accsessing and update  TextViews and ImageViews .
