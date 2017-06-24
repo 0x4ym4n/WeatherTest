@@ -7,9 +7,9 @@ Application Description : Shows wind, humidity, high and low temperature and win
 Technologies I used to Develope this app : 
 
 
-1- Android Native Software Development tools (Android Studio)
-2- Openweather API 
-3- Smart Phones Integreated GPS systems
+* 1- Android Native Software Development tools (Android Studio)
+* 2- Openweather API 
+* 3- Smart Phones Integreated GPS systems
 
 
 Setup :
