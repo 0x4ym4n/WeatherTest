@@ -59,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
-        android:text="First Grade Comuter Scince student"
+        android:text="First Grade Computer Scince student"
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
